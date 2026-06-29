@@ -1,0 +1,31 @@
+{
+  "model": "MultinomialNB",
+  "params": {
+    "alpha": 0.1,
+    "final_train": "train+val"
+  },
+  "val_metrics": {
+    "accuracy": 0.7219233355749832,
+    "macro_f1": 0.5903201929593909,
+    "macro_auc": 0.5865662061801672
+  },
+  "test_metrics": {
+    "accuracy": 0.7347694378996971,
+    "macro_precision": 0.7846415877864112,
+    "macro_recall": 0.6039327232862036,
+    "macro_f1": 0.6420427039675893,
+    "macro_auc": 0.6115538617717629
+  },
+  "labels": [
+    "F0",
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8"
+  ],
+  "n_features": 12000
+}

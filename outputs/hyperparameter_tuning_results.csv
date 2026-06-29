@@ -1,0 +1,2 @@
+﻿model,params,val_accuracy,val_macro_f1,val_macro_auc,test_accuracy,test_macro_f1,test_macro_auc
+MultinomialNB,"{""alpha"": 0.1, ""final_train"": ""train+val""}",0.7219233355749832,0.5903201929593909,0.5865662061801672,0.7347694378996971,0.6420427039675893,0.6115538617717629

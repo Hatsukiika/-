@@ -1,0 +1,82 @@
+{
+  "raw_rows": 16000,
+  "raw_columns": [
+    "file_path",
+    "label_raw",
+    "title",
+    "author_keywords",
+    "abstract",
+    "title_tokens",
+    "title_pos",
+    "abstract_tokens",
+    "abstract_pos",
+    "auto_keywords_a",
+    "auto_keywords_b",
+    "auto_keywords_c",
+    "split"
+  ],
+  "missing_before": {
+    "file_path": 10231,
+    "label_raw": 0,
+    "title": 0,
+    "author_keywords": 764,
+    "abstract": 2883,
+    "title_tokens": 0,
+    "title_pos": 0,
+    "abstract_tokens": 2883,
+    "abstract_pos": 2883,
+    "auto_keywords_a": 11096,
+    "auto_keywords_b": 11066,
+    "auto_keywords_c": 11103,
+    "split": 0
+  },
+  "invalid_label_rows_removed": 2,
+  "duplicate_rows_removed": 1,
+  "empty_text_rows_removed": 0,
+  "outlier_rule": {
+    "field": "combined_len",
+    "method": "IQR",
+    "lower": 1.0,
+    "upper": 94.5
+  },
+  "outlier_rows_removed": 156,
+  "missing_after": {
+    "file_path": 0,
+    "label_raw": 0,
+    "title": 0,
+    "author_keywords": 0,
+    "abstract": 0,
+    "title_tokens": 0,
+    "title_pos": 0,
+    "abstract_tokens": 0,
+    "abstract_pos": 2882,
+    "auto_keywords_a": 11018,
+    "auto_keywords_b": 10988,
+    "auto_keywords_c": 11024,
+    "split": 0,
+    "label": 0,
+    "title_len": 0,
+    "keyword_len": 0,
+    "abstract_len": 0,
+    "combined_len": 0
+  },
+  "clean_rows": 15841,
+  "label_counts": {
+    "F0": 405,
+    "F1": 2009,
+    "F2": 4154,
+    "F3": 1506,
+    "F4": 1465,
+    "F5": 817,
+    "F6": 57,
+    "F7": 1506,
+    "F8": 3922
+  },
+  "split_counts_after_cleaning": {
+    "train": 9896,
+    "val": 2974,
+    "test": 2971
+  },
+  "stopwords_count": 1893,
+  "keyword_list_count": 271126
+}
